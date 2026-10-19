@@ -1,67 +1,77 @@
-<h1 align="center">Hi 👋, I'm Hammad Aamir Khatri</h1>
-<h3 align="center">AI / LLM &amp; 3D Engineering Leader · Generative-AI Systems · Two-time Technical Co-Founder</h3>
-
+<h1 align="center">Hammad Aamir Khatri</h1>
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=2F8496&center=true&vCenter=true&width=680&lines=Lead+Engineer+%C2%B7+AI+%2B+3D+Systems;LLM+agents+%C2%B7+Blender+automation+%C2%B7+MCP;Two-time+technical+co-founder+(CTO);Open+to+leadership+roles+%E2%80%94+Remote+%2F+GCC" alt="Typing SVG" />
+  <b>Founder, <a href="https://mojood.app">Mojood</a></b> · I connect business systems to AI<br>
+  Lead Engineer, AI + 3D · Three-time technical co-founder · Karachi, Pakistan
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/hammad-aamir-khatri-a95958137"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:hammadakhatri@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
-  <a href="https://facebook.com/hammad.aamir.1"><img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white" alt="Facebook"/></a>
-  <a href="https://instagram.com/hammadaamir"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram"/></a>
+  <a href="https://mojood.app"><img src="https://img.shields.io/badge/mojood.app-18181B?style=for-the-badge" alt="mojood.app"/></a>
+  <a href="https://mojood.app/connect"><img src="https://img.shields.io/badge/Mojood%20Connect-2F8496?style=for-the-badge" alt="Mojood Connect"/></a>
+  <a href="https://linkedin.com/in/hammad-aamir-khatri-a95958137"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:hammad@askmojood.com"><img src="https://img.shields.io/badge/Email-hammad%40askmojood.com-555555?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email"/></a>
 </p>
 
 ---
 
-## 💫 About Me
-- 🚀 **Lead Engineer** building AI-driven 3D tooling — Blender automation, LLM agents (LangGraph + **Model Context Protocol**), and real-time scene generation.
-- 🧠 Generative-AI & 3D-graphics engineer who ships production **LLM/agent systems**, desktop apps, and cloud render pipelines.
-- 🧩 **Two-time technical co-founder (CTO)** — built teams, products, and businesses from zero.
-- 🔭 Currently working on **Blender ⇄ AI real-time operations** and agentic 3D pipelines.
-- 👯 Happy to collaborate on ideas that make **Blender easier and more fun** to use.
-- 🌍 Open to **engineering-leadership** roles — remote or GCC (Jeddah / KSA).
-- 🎓 BSc Mechanical Engineering, Bilkent University.
+## Now: Mojood (موجود, "available")
+Mojood connects business systems to AI. Two products, both live:
 
-## 🛠️ What I build
-- **AI agents & LLM systems** — LangGraph / LangChain orchestration, Model Context Protocol (MCP) servers, tool-schema & prompt design, OpenAI & Google Gemini, vector search (CLIP/FAISS).
-- **3D pipelines** — Blender Python (`bpy`) add-ons, rigging & retargeting, USD / glTF, WebXR, render-farm automation, image-to-3D & text-to-image generation.
-- **Backends & cloud** — FastAPI, WebSockets / SSE, serverless GPU (Modal), AWS & Google Cloud, Docker, PostgreSQL.
+- **[Connect](https://mojood.app/connect)**: MCP servers that put a company's own systems inside
+  Claude and ChatGPT, so its customers and staff can ask in plain language and get answers from
+  real data.
+- **[Order Desk](https://askmojood.com)**: WhatsApp ordering for industrial distributors. A
+  contractor types shorthand like *"M10 bolts 40mm with nuts, 200"* (Roman Urdu works too) and gets
+  back the exact stocked part and the distributor's own price.
 
-## 💻 Tech Stack
+The rule under both: **prices and stock come only from the company's data, never from the model.**
+When a line is missing a size or grade, the system asks for it instead of guessing.
+
+### Try it in 30 seconds
+Add the public demo server as a custom connector in Claude (Settings → Connectors), or in any MCP client:
+
+```
+https://mcp.askmojood.com/mcp
+```
+
+Then ask: *"Quote 200 M10×40 hex bolts with nuts and washers."* It's read-only, and the distributor
+and its prices are samples.
+
+**Built solo:** Python + FastAPI, an MCP server over Streamable HTTP, the WhatsApp Business Platform
+with signed webhooks, Postgres, a Linux VPS under systemd behind a Cloudflare Tunnel, Cloudflare
+Workers + Access, Astro sites, and an installable ops console with push alerts.
+
+## Before Mojood
+- **Lead Engineer, Metabull** (2023–present): AI-driven 3D tooling with Blender automation, LLM agents and the Model Context Protocol.
+- **Co-founder & sole engineer, Saltify** (2026, paused): an AI marketing SaaS with a four-stage LLM pipeline on FastAPI, an RQ/Redis worker, Postgres, metered billing and a React/TypeScript front end.
+- **Co-founder & CTO** twice before that: Metalytics (software house) and Native Organics (D2C brand).
+- **Freelance** (~5 years): engineering computing and Blender 3D. Top Rated Plus, ~4,000 hours.
+- **BSc Mechanical Engineering**, Bilkent University.
+
+## Open source
+- **[normkit](https://github.com/hammadakhatri/normkit)**: parts as code, images as output. Verified catalogue assets for standard industrial parts.
+- **[din933-render-poc](https://github.com/hammadakhatri/din933-render-poc)**: a parametric DIN 933 / ISO 4017 hex bolt render pipeline in Blender + Python, headless, with a dimensional verification pass.
+
+## Tech stack
 
 **Languages**<br>
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![MATLAB](https://img.shields.io/badge/MATLAB-0076A8.svg?style=for-the-badge&logo=mathworks&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Bash](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![MATLAB](https://img.shields.io/badge/MATLAB-0076A8.svg?style=for-the-badge&logo=mathworks&logoColor=white) ![Bash](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
-**AI / LLM & Data**<br>
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white) ![Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white) ![MCP](https://img.shields.io/badge/Model%20Context%20Protocol-000000?style=for-the-badge) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
-
-**3D / Graphics**<br>
-![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white) ![Qt](https://img.shields.io/badge/PySide%20/%20Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white) ![Adobe Creative Cloud](https://img.shields.io/badge/Adobe%20Creative%20Cloud-DA1F26.svg?style=for-the-badge&logo=Adobe%20Creative%20Cloud&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![Adobe Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=for-the-badge&logo=adobe%20illustrator&logoColor=white)
+**AI / LLM**<br>
+![MCP](https://img.shields.io/badge/Model%20Context%20Protocol-000000?style=for-the-badge) ![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white) ![Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 
 **Backend / Web**<br>
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white) ![Shopify](https://img.shields.io/badge/Shopify-7AB55C?style=for-the-badge&logo=shopify&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) ![WhatsApp](https://img.shields.io/badge/WhatsApp%20Cloud%20API-25D366?style=for-the-badge&logo=whatsapp&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Astro](https://img.shields.io/badge/astro-%232C2052.svg?style=for-the-badge&logo=astro&logoColor=white) ![Tailwind](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Supabase](https://img.shields.io/badge/supabase-%233ECF8E.svg?style=for-the-badge&logo=supabase&logoColor=white)
 
-**Cloud / DevOps & Tools**<br>
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white) ![Steam](https://img.shields.io/badge/steam-%23000000.svg?style=for-the-badge&logo=steam&logoColor=white)
+**3D / Graphics**<br>
+![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white) ![Qt](https://img.shields.io/badge/PySide%20/%20Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white)
 
-## 📊 GitHub Stats
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=hammadakhatri&theme=dark&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hammadakhatri&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top languages"/>
-</p>
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=hammadakhatri&theme=dark&hide_border=false" alt="GitHub streak"/>
-</p>
-
-### ✍️ Random Dev Quote
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Dev quote"/>
-</p>
+**Cloud / Infra**<br>
+![Cloudflare](https://img.shields.io/badge/cloudflare-%23F38020.svg?style=for-the-badge&logo=cloudflare&logoColor=white) ![Hetzner](https://img.shields.io/badge/hetzner-%23D50C2D.svg?style=for-the-badge&logo=hetzner&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Railway](https://img.shields.io/badge/railway-%230B0D0E.svg?style=for-the-badge&logo=railway&logoColor=white)
 
 ---
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=hammadakhatri&label=Profile%20views&color=2F8496&style=for-the-badge" alt="Profile views"/>
+  <b>Should your product be usable from inside Claude or ChatGPT?</b><br>
+  <a href="https://mojood.app/connect">Book a call at mojood.app/connect</a> · <a href="mailto:hammad@askmojood.com">hammad@askmojood.com</a>
 </p>
 
 <!-- Source of truth: personal-docs vault → github-profile/README.md. Edit there, copy to GitHub. -->
