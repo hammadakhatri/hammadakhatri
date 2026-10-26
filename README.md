@@ -14,16 +14,14 @@
 ---
 
 ## Now: Mojood (موجود, "available")
-Mojood connects business systems to AI. Two products, both live:
+Mojood connects business systems to AI.
 
 - **[Connect](https://mojood.app/connect)**: MCP servers that put a company's own systems inside
   Claude and ChatGPT, so its customers and staff can ask in plain language and get answers from
   real data.
-- **[Order Desk](https://askmojood.com)**: WhatsApp ordering for industrial distributors. A
-  contractor types shorthand like *"M10 bolts 40mm with nuts, 200"* (Roman Urdu works too) and gets
-  back the exact stocked part and the distributor's own price.
+- **[Ask Mojood](https://askmojood.com)**: where companies ask for work and try the things I've built.
 
-The rule under both: **prices and stock come only from the company's data, never from the model.**
+The rule: **prices and stock come only from the company's data, never from the model.**
 When a line is missing a size or grade, the system asks for it instead of guessing.
 
 ### Try it in 30 seconds
