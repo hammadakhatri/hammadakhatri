@@ -1,7 +1,7 @@
 <h1 align="center">Hammad Aamir Khatri</h1>
 <p align="center">
   <b>Founder, <a href="https://mojood.app">Mojood</a></b> · I connect business systems to AI<br>
-  Lead Engineer, AI + 3D · Three-time technical co-founder · Karachi, Pakistan
+  Lead Engineer, AI + 3D · Hyderabad / Karachi, Pakistan
 </p>
 
 <p align="center">
@@ -14,15 +14,14 @@
 ---
 
 ## Now: Mojood (موجود, "available")
-Mojood connects business systems to AI.
+Mojood connects business systems to AI. One product live:
 
 - **[Connect](https://mojood.app/connect)**: MCP servers that put a company's own systems inside
   Claude and ChatGPT, so its customers and staff can ask in plain language and get answers from
   real data.
-- **[Ask Mojood](https://askmojood.com)**: where companies ask for work and try the things I've built.
 
 The rule: **prices and stock come only from the company's data, never from the model.**
-When a line is missing a size or grade, the system asks for it instead of guessing.
+When a line is missing a size or grade, the server asks for it instead of guessing.
 
 ### Try it in 30 seconds
 Add the public demo server as a custom connector in Claude (Settings → Connectors), or in any MCP client:
@@ -39,10 +38,12 @@ with signed webhooks, Postgres, a Linux VPS under systemd behind a Cloudflare Tu
 Workers + Access, Astro sites, and an installable ops console with push alerts.
 
 ## Before Mojood
+Before Mojood I was technical co-founder at Saltify, Metalytics and Native Organics.
+
 - **Lead Engineer, Metabull** (2023–present): AI-driven 3D tooling with Blender automation, LLM agents and the Model Context Protocol.
 - **Co-founder & sole engineer, Saltify** (2026, paused): an AI marketing SaaS with a four-stage LLM pipeline on FastAPI, an RQ/Redis worker, Postgres, metered billing and a React/TypeScript front end.
-- **Co-founder & CTO** twice before that: Metalytics (software house) and Native Organics (D2C brand).
-- **Freelance** (~5 years): engineering computing and Blender 3D. Top Rated Plus, ~4,000 hours.
+- **Co-founder & CTO**: Metalytics (software house) and Native Organics (D2C brand).
+- **Freelance** (~5 years): engineering computing and Blender 3D. Top Rated Plus, 4,300+ hours.
 - **BSc Mechanical Engineering**, Bilkent University.
 
 ## Open source
