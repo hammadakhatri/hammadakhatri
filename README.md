@@ -46,7 +46,13 @@ Before Mojood I was technical co-founder at Saltify, Metalytics and Native Organ
 - **Freelance** (~5 years): engineering computing and Blender 3D. Top Rated Plus, 4,300+ hours.
 - **BSc Mechanical Engineering**, Bilkent University.
 
+## Also: Inside Machines
+**[Inside Machines](https://www.youtube.com/@goinsidemachines)** is my physics and engineering channel: one machine a week,
+opened up in 3D in a short under a minute, with an interactive page for each at
+[goinsidemachines.com](https://goinsidemachines.com). Every frame is built and rendered in Blender from code.
+
 ## Open source
+- **[blender-shorts-agent](https://github.com/goinsidemachines/blender-shorts-agent)**: a Claude Code plugin that makes finished, narrated vertical explainer shorts entirely in Blender. It makes the Inside Machines shorts.
 - **[normkit](https://github.com/hammadakhatri/normkit)**: parts as code, images as output. Verified catalogue assets for standard industrial parts.
 - **[din933-render-poc](https://github.com/hammadakhatri/din933-render-poc)**: a parametric DIN 933 / ISO 4017 hex bolt render pipeline in Blender + Python, headless, with a dimensional verification pass.
 
