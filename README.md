@@ -37,6 +37,12 @@ and its prices are samples.
 with signed webhooks, Postgres, a Linux VPS under systemd behind a Cloudflare Tunnel, Cloudflare
 Workers + Access, Astro sites, and an installable ops console with push alerts.
 
+### Studio: Inside Machines
+**[Inside Machines](https://www.youtube.com/@goinsidemachines)** is Mojood's studio: a physics and engineering channel,
+one machine a week, opened up in 3D in a short under a minute, with an interactive page for each at
+[goinsidemachines.com](https://goinsidemachines.com). Every frame is built and rendered in Blender from code, by our
+open-source plugin [blender-shorts-agent](https://github.com/goinsidemachines/blender-shorts-agent).
+
 ## Before Mojood
 Before Mojood I was technical co-founder at Saltify, Metalytics and Native Organics.
 
@@ -45,11 +51,6 @@ Before Mojood I was technical co-founder at Saltify, Metalytics and Native Organ
 - **Co-founder & CTO**: Metalytics (software house) and Native Organics (D2C brand).
 - **Freelance** (~5 years): engineering computing and Blender 3D. Top Rated Plus, 4,300+ hours.
 - **BSc Mechanical Engineering**, Bilkent University.
-
-## Also: Inside Machines
-**[Inside Machines](https://www.youtube.com/@goinsidemachines)** is my physics and engineering channel: one machine a week,
-opened up in 3D in a short under a minute, with an interactive page for each at
-[goinsidemachines.com](https://goinsidemachines.com). Every frame is built and rendered in Blender from code.
 
 ## Open source
 - **[blender-shorts-agent](https://github.com/goinsidemachines/blender-shorts-agent)**: a Claude Code plugin that makes finished, narrated vertical explainer shorts entirely in Blender. It makes the Inside Machines shorts.
